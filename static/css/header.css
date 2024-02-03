@@ -1,0 +1,58 @@
+header {
+    background-color: var(--surface-color);
+    height: 60px;
+    position: sticky;   /* always see it  */
+    top: 0px;
+}
+
+/* Left Side  */
+.logo {
+    /* border: solid 1px red; */
+    height: 100%; /* the 100% means the total of the height of the div. */
+    width: 30%;
+}
+
+
+/* Right Side  */
+
+nav {
+    /* border: solid 1px blue; */
+    height: 100%;
+    width: 70%;
+}
+
+.nav-link {
+    height: 100%;
+}
+
+.nav-link a {
+    color: var(--neutral-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    /* background-color: red; */
+
+    margin: 2%;     /* usihng % is based on size of the screen  */
+    padding: 1% 2%; 
+    
+}
+
+.nav-link a:hover {
+    border-bottom: solid 2px var(--primary-color);
+}
+
+/* Hamburger Button  */
+
+.nav-btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--neutral-color);
+    margin: 6px auto; /* first number is top and bottom, second is L&R */
+    
+}
+
+#nav-check, .nav-btn {
+    display: none;
+}
+
